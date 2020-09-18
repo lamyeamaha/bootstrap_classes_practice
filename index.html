@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap Classes</title>
+  </head>
+  <body>
+    <!--class: .container start-->
+    <section class="one">
+        <div class="container">
+          <h1>Class name: container</h1>
+          <p>The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.The content is centered by leaving spaces from both sides.</p>
+        </div>
+    </section>
+    <!--class: .contaier end-->
+    <!--class: .container-fluid start-->
+    <section class="two">
+        <div class="container-fluid">
+          <h1>Class name: container-fluid</h1>
+          <p>The content takes the whole space availabe, from left to right.The content takes the whole space availabe, from left to right.The content takes the whole space availabe, from left to right.The content takes the whole space availabe, from left to right.The content takes the whole space availabe, from left to right.The content takes the whole space availabe, from left to right.</p>
+        </div>
+    </section>
+    <!--class: .container-fluid end-->
+    <!--Griding system start-->
+    <section class="three">
+      <div class="container">
+        <h1>Griding system with col-md-6</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="box"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Griding system with col-md-3</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="box"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="box"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="">
+          <p>N.B. You will be able to see the above columns separately for classes md(whatever the class you mention) and ABOVE. For smallaer window screens, i.e, for classes sm and col, it will not work.</p>
+          <p>Also, griding system is used only where you get whole numbers after dividing 12.</p> 
+        </div>
+      </div>
+    </section>
+    <!--Griding system end-->
+    <!--flex start-->
+    <section class="four">
+      <div class="container">
+        <h1>flex with col-md:</h1>
+        <div class="row">
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p>In flex, you do no write the number in "col-md-6".</p>
+        <p>With flex, you can work with both integers and non-integers(the number you get after dividing by 12)</p>
+        <p>With flex, you can work with MORE than 12 columns</p>
+      </div>
+    </section>
+    <!--flex end-->
+    <!--flex and grid together start-->
+    <section class="five">
+      <div class="container">
+        <h1>Using flex and grid together:</h1>
+        <p>To get a column equivalent to 5 columns and 2 columns equivalent to 3.5 columns you need to use flex and grid together</p>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="box"></div>
+          </div>
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+          <div class="col-md">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--flex and grid together end-->
+    <!--offset start-->
+    <section class="six">
+      <div class="container">
+        <h1>Using offset (part 1)</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box"></div>
+          </div>
+          <div class="offset-md-4 col-md-4">
+            <div class="box">
+              <p>We want to move this box away from the first box. So, we use offset in this div</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Using offset (part 2)</h1>
+        <div class="row">
+          <div class="offset-md-4 col-md-4">
+            <div class="box">
+              <p>We want to move this box to the center. So, we use offset in this div.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--offset end-->
+    <!--.h1 to .h6 classes start-->
+    <section class="seven">
+      <div class="container">
+        <h1>Using .h1 to .h6 classes </h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="box">
+              <h1>This is written using h1 tag</h1>
+              <h2>This is written using h2 tag</h2>
+              <h3>This is written using h3 tag</h3>
+              <h4>This is written using h4 tag</h4>
+              <h5>This is written using h5 tag</h5>
+              <h6>This is written using h6 tag</h6>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="box">
+              <p class="h1"> This is written using p tag but .h1 class</p>
+              <p class="h2"> This is written using p tag but .h2 class</p>
+              <p class="h3"> This is written using p tag but .h3 class</p>
+              <p class="h4"> This is written using p tag but .h4 class</p>
+              <p class="h5"> This is written using p tag but .h5 class</p>
+              <p class="h6"> This is written using p tag but .h6 class</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--.h1 to .h6 classes end-->
+    <!--.text-muted class start-->
+    <section class="eight">
+      <div class="container">
+        <h1>.text-muted class :</h1>
+          <h3>
+            Fancy display heading <small class="text-muted">With faded secondary text</small>
+          </h3>
+          <h3 class="text-muted">Whole sentence has text-muted class applied on it</h3>
+      </div>
+    </section>
+    <!--.text-muted class end-->
+    <!-- .display-1 to .display-4 classes start-->
+    <section class="nine">
+      <div class="container">
+        <h1>.display-1 to .display-4 classes: </h1>
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+        <p>Use these classes if you want your heading to stand out.</p>
+        <p>Nb. the headings are not responsive</p> 
+      </div>
+    </section>
+    <!--.display-1 to .display-4 classes end-->
+    <!-- .lead class start-->
+    <section class="">
+      <div class="container">
+        <h1>Make a paragraph stand out using .lead class: </h1>
+        <p class="lead">This sentence uses .lead class.</p>
+      </div>
+    </section>
+    <!-- .lead class end-->
+    <!--inline text elements start-->
+    <section class="ten">
+      <div class="container">
+        <h1>These are some of the styling used for html5 elements:</h1>
+        <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+        <p><del>deleted text.</del></p>
+        <p><s>no longer accurate.</s></p>
+        <p><ins>addition to the document.</ins></p>
+        <p><u>underlined</u></p>
+        <p><small>fine print.</small></p>
+        <p><strong>bold text.</strong></p>
+        <p><em>italicized text.</em></p>
+      </div>
+    </section>
+    <!--inline text elements end-->
+    <!--.img-fluid start-->
+    <section class="eleven">
+      <div class="container">
+        <h1>Use .img-fluid class to make an image responsive</h1>
+      <img src="images/restaurant.jpg" class="img-fluid" alt="restaurant">
+      </div>
+    </section>
+    <!--.img-fluid end-->
+
+
+    <!--JS Links -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

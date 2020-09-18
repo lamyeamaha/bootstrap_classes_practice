@@ -1,0 +1,9 @@
+section{
+	background-color:#80008029;
+	padding:30px;
+	margin-bottom:40px;
+}
+.box{
+	min-height:100px;
+	background-color:purple;
+}
